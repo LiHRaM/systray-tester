@@ -1,0 +1,11 @@
+[package]
+name = "systray-tester"
+version = "0.1.0"
+authors = ["Hilmar Gústafsson <hilmargustafs@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+systray = { git = "https://github.com/N-Parsons/systray-rs", branch = "set_icon" }
+ksni = "0.1.1"
